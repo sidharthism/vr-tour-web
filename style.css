@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    min-height:100%;
+    background-image: url("east-sikkim-gangtok-147791514406-orijgp.jpg");
+    background-position:   center center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+}
+
+.top{
+    position: absolute;
+    right: 50px;
+    top:50px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.about{
+    min-height: 100vh;
+    background-color: white;
+    position: relative;
+    top:100vh;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.about-content {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.about-title {
+    padding: 40px;
+    text-align: center;
+}
+
+.map{
+   border-radius: 10px;
+   width: 90%;
+}
+
+.about-desc{
+    padding: 30px 0px 25px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.scroll{
+    color: white;
+}
+
+hr {
+  border-style:dotted none none none;
+  width: 100px;
+  height: 0px;
+  border-width: 10px ;
+  border-color: silver;
+  margin: 40px auto 0 auto;
+}
+.checkpoints{
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h3{
+    padding: 10px 0px 20px 0px;
+    font-size: 25px;
+    text-shadow: 3px 3px 3px silver;
+}
+
+li{
+    font-size: 20px;
+}
+
+
+.link-title{
+    text-align: center;
+    padding: 40px 0px 50px 0px;
+}
+
+.link-desc{
+    text-align: center;
+    color: #db6e3c;
+    margin-bottom: 60px;
+}
+
+.link-desc:hover{
+    color: #db3c3c;
+}
+
+.footer{
+    height: 100px;
+    background-color: black;
+}
+
+.copyright{
+    padding-top: 40px;
+}
+
+.tour{
+    height: 100vh;
+}
+
+
+@media screen and (max-width:480px){
+    html{
+        background-position: center;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size:25px;
+    }
+
+    .top{
+        position: static;
+        text-align: center;
+        padding-top: 10vh;
+    }
+
+    .about{
+         
+    }
+}
